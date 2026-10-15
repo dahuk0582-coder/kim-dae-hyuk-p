@@ -1,0 +1,47 @@
+body {
+  font-family: "Malgun Gothic", sans-serif;
+}
+
+h1 {
+  color: blue;
+  background-color: yellow;
+  border: 2px solid red;
+  padding: 20px;
+  border-radius: 50px;
+  box-shadow: rgba(0,0,0,0.16) 0px 3px 6px,
+              rgba(0,0,0,0.23) 0px 3px 6px;
+}
+
+h1:hover {
+  background-color: green;
+}
+
+p {
+  font-weight: bold;
+  text-align: center;
+}
+
+li {
+  text-decoration: underline;
+}
+
+#next {
+  background-color: orange;
+}
+
+#next:hover {
+  background-color: pink;
+}
+
+#intro {
+  color: pink;
+}
+
+li.inner {
+  text-decoration: none;
+  color: green;
+}
+
+#intro, li.inner {
+  font-weight: bold;
+}
